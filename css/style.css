@@ -1,15 +1,40 @@
-.divider:after,
-.divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #eee;
+body {
+  background: url("/img/bg3.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.h-custom {
-  height: calc(100% - 73px);
+
+.card {
+  margin: 140px auto;
+  float: none;
 }
-@media (max-width: 450px) {
-  .h-custom {
-    height: 100%;
-  }
+
+.caption {
+  position: relative;
+  bottom: 125px;
+  font-size: small;
+  text-align: center;
+}
+
+.foot_note {
+  font-size: small;
+  text-align: center;
+  color: gainsboro;
+}
+
+#btn {
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  color: rgb(31, 201, 102);
+}
+
+.loginT {
+  font-size: 12px;
+  padding-top: 20px;
 }
